@@ -25,7 +25,7 @@ class Person {
     this.lastName = lastName;
   }
 
-  set fullName(name) {
+  set setFullName(name) {
     name = name.split(' ');
     this.setFirstName(name[0]);
     this.setLastName(name[1]);
